@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = (props = {}) => {
   const {showLinks = true} = props
   return (
-    <footer>
+    <footer id="contact">
        <div className="row footer-container">
           <div className="twelve columns">
              {

@@ -244,8 +244,9 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+.work {
+   margin-top: 20px;
+}
 
 .education, .work, .skill {
    margin-bottom: 48px;

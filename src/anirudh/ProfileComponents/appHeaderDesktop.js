@@ -15,7 +15,7 @@ const AppHeaderDesktop = (props) => {
         <Menu.Item><a className="smoothscroll" href="#">Home</a></Menu.Item>
         <Menu.Item><a className="smoothscroll" href="#about">About</a></Menu.Item>
         <Menu.Item><a className="smoothscroll" href="#resume">Resume</a></Menu.Item>
-        <Menu.Item><a className="smoothscroll" href="#portfolio">Works</a></Menu.Item>
+        <Menu.Item><a className="smoothscroll" href="#resume">Works</a></Menu.Item>
         {/* <Menu.Item><a className="smoothscroll" href="#testimonials">Testimonials</a></Menu.Item> */}
         <Menu.Item><a className="smoothscroll" href="#contact">Contact</a></Menu.Item>
       </Container>
