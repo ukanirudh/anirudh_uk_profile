@@ -1,5 +1,5 @@
 import React from 'react'
-import DesktopContainer from './desktopContainer'
+import DesktopContainer from './DesktopContainer'
 
 const ProfileContainer = () => {
     return (

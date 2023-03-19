@@ -4,20 +4,38 @@ import Work from './ResumeSection/Work'
 import Skills from './ResumeSection/Skills'
 import DownloadResume from './DownloadResume'
 import Portfolio from './Portfolio'
-import { Tab } from 'semantic-ui-react'
+import { Tab, Header, Menu } from 'semantic-ui-react'
 
 const panes = [
-  { menuItem: 'Professional', render: () => <Tab.Pane size='huge'>
-    <>
-      <Work />
-      <Skills />
-      <Education />
-      <DownloadResume />
-    </>
-  </Tab.Pane> },
-  { menuItem: 'Passion', render: () => <Tab.Pane>
-    <Portfolio />
-  </Tab.Pane> },
+  { 
+    menuItem: (
+      <Menu.Item key='Professional'>
+        <Header size='medium'>Professional</Header>
+      </Menu.Item>
+    ),
+    render: () => (
+      <Tab.Pane size='huge'>
+        <>
+          <Work />
+          <Skills />
+          <Education />
+          <DownloadResume />
+        </>
+      </Tab.Pane>
+    )
+  },
+  { 
+    menuItem: (
+      <Menu.Item key='Passion'>
+        <Header size='medium'>Passion</Header>
+      </Menu.Item>
+    ),
+    render: () => (
+      <Tab.Pane size='huge'>
+        <Portfolio />
+      </Tab.Pane>
+    ) 
+  },
 ]
 
 const LifeExperienceTabs = () => {

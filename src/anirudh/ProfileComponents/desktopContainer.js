@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {
+  Grid,
   Segment,
   Visibility,
 } from 'semantic-ui-react'
@@ -39,7 +40,7 @@ export default class DesktopContainer extends Component {
                      <hr />
                      <ul className="social">
                         <li><a href="https://www.facebook.com/anirudh.kukkilaya.3" target='_blank'><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/anirudh-uk-48b74921" target='_blank'><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/anirudh-uk/" target='_blank'><i class="fab fa-linkedin"></i></a></li>
                         <li><a href="https://github.com/ukanirudh" target='_blank'><i class="fab fa-github"></i></a></li>
                         <li><a href="https://www.instagram.com/anirudhuk/" target='_blank'><i class="fab fa-instagram"></i></a></li>
                         <li><a href="http://trippinzindagi.wordpress.com/" target='_blank'><i class="fab fa-wordpress"></i></a></li>

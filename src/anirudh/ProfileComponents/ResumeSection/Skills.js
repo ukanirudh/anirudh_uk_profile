@@ -21,6 +21,7 @@ const Skills = () => {
             </div>
             <div className="six columns main-col">
               <ul className="skills">
+                <li><span>GraphQL</span><Rating size={'huge'} defaultRating={4} maxRating={5} disabled /></li>
                 <li><span>CSS</span><Rating size={'huge'} defaultRating={3.5} maxRating={5} disabled /></li>
                 <li><span>HTML</span><Rating size={'huge'} defaultRating={4} maxRating={5} disabled /></li>
                 <li><span>jQuery</span><Rating size={'huge'} defaultRating={4} maxRating={5} disabled /></li>

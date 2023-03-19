@@ -1,12 +1,8 @@
 import React from 'react'
-import {TradingApp} from './App'
+import App from './homePageRoutes'
 import './trading.scss'
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
-const trading = () => {
-  return (
-      <TradingApp />
-  )
-}
+const AppRoot = () => <App />
 
-export default trading;
+export default AppRoot;

@@ -40,7 +40,7 @@ const Work = () => {
           <div className="row item">
              <div className="twelve columns">
                 <h3>JiffleNow</h3>
-                <p className="info">Senior Software Engineer, UI developer<span>&bull;</span> <em className="date">Jun 2017 - Oct 2019</em></p>
+                <p className="info">Software Engineer, UI developer<span>&bull;</span> <em className="date">Jun 2017 - Oct 2019</em></p>
                 <p>
                  Product: ​Jifflenow iris application Main Feature with the product​: External Integrations <br />
                  Role​: UI Developer <br />

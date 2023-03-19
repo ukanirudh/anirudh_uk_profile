@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
-   line-height: 30px;
+   line-height: 25px;
    color: #7A7A7A;
 }
 #about .profile-pic {
@@ -279,7 +279,6 @@ ul#nav li.current a { color: #F06000; }
 	text-align: left;
 }
 .bars .skills {
-  margin-top: 36px;
   list-style: none;
 }
 .bars li {
@@ -393,8 +392,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 #portfolio h1 {
    font: 24px 'opensans-semibold', sans-serif;
