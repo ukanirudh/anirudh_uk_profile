@@ -1,3 +1,6 @@
+.m-t-32 {
+  margin-top: 32px;
+}
 
 .semantic-menu-header {
   a {
@@ -27,5 +30,15 @@
   &.ui.card > .image > img {
     image-orientation: from-image;
     height: 250px;
+  }
+}
+
+.skill {
+  .skill-name {
+    font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
   }
 }

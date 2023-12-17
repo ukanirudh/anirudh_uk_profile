@@ -1,10 +1,7 @@
 import React from 'react'
-import Education from './ResumeSection/Education'
-import Work from './ResumeSection/Work'
-import Skills from './ResumeSection/Skills'
-import DownloadResume from './DownloadResume'
 import Portfolio from './Portfolio'
 import { Tab, Header, Menu } from 'semantic-ui-react'
+import ProfessionalResume from './Professional';
 
 const panes = [
   { 
@@ -16,10 +13,7 @@ const panes = [
     render: () => (
       <Tab.Pane size='huge'>
         <>
-          <Work />
-          <Skills />
-          <Education />
-          <DownloadResume />
+          <ProfessionalResume />
         </>
       </Tab.Pane>
     )

@@ -1,13 +1,8 @@
 import React from 'react'
-//import Header from './Header'
-import Footer from './Footer'
-import DesktopContainer from './desktopContainer'
 
 const Contact = () => {
   return (
     <React.Fragment>
-      {/*<Header />*/}
-      {/*<DesktopContainer />*/}
       <section id="contact">
         <div className="row section-head">
            <div className="two columns header-col">
@@ -42,7 +37,6 @@ const Contact = () => {
           </aside>
         </div>
       </section>
-      {/*<Footer />*/}
     </React.Fragment>
   )
 }

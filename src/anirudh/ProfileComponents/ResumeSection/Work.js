@@ -10,11 +10,26 @@ const Work = () => {
        <div className="nine columns main-col">
          <div className="row item">
             <div className="twelve columns">
+              <h3>Altimetrik | Intuit</h3>
+              <p className="info">Staff Frontend Engineer<span>&bull;</span> <em className="date">May 2023- Present</em></p>
+              <p>
+                  Product: Conversations <br />
+                  Role​: Frontend Engineer <br />
+                  {/* Description​: <br />
+                  <ul className="skills">
+                     <li><span>Javascript</span></li>
+                  </ul> */}
+              </p>
+            </div>
+         </div>
+         <br/>
+         <div className="row item">
+            <div className="twelve columns">
               <h3>EclecticIQ</h3>
-              <p className="info">Senior Software Engineer, Frontend Engineer<span>&bull;</span> <em className="date">May 2022 - Present</em></p>
+              <p className="info">Senior Software Engineer, Frontend Engineer<span>&bull;</span> <em className="date">May 2022 - May 2023</em></p>
               <p>
                   Product: XDR <br />
-                  Role​: UI Developer <br />
+                  Role​: Frontend Engineer <br />
                   Description​: Integrated solution for security analysts for ER product, to view and analyse security threats for an end-point.
               </p>
             </div>
@@ -26,12 +41,12 @@ const Work = () => {
               <p className="info">Senior Software Engineer, Frontend Engineer<span>&bull;</span> <em className="date">Oct 2019 - May 2022</em></p>
               <p>
                   Product: Syncron Price <br />
-                  Role​: UI Lead & Developer <br />
+                  Role​: Frontend Lead & Developer <br />
                   Description​: Our team was responsible for pioneering the project of first module to be migrated from JSF-JAVA UI to Angular UI.
               </p>
               <p>
                   Product: Syncron Price analytics tool <br />
-                  Role​: UI Developer <br />
+                  Role​: Frontend Engineer <br />
                   Description​: Application for the customers to view the statistical visualization and run analytics on the after-sales data of their dealers.
               </p>
             </div>
@@ -40,15 +55,15 @@ const Work = () => {
           <div className="row item">
              <div className="twelve columns">
                 <h3>JiffleNow</h3>
-                <p className="info">Software Engineer, UI developer<span>&bull;</span> <em className="date">Jun 2017 - Oct 2019</em></p>
+                <p className="info">Software Engineer, Frontend Engineer<span>&bull;</span> <em className="date">Jun 2017 - Oct 2019</em></p>
                 <p>
                  Product: ​Jifflenow iris application Main Feature with the product​: External Integrations <br />
-                 Role​: UI Developer <br />
+                 Role​: Frontend Engineer <br />
                  Description​: Our team was responsible to integrate our application with external CRM tools including Salesforce
                  </p>
                  <p>
                  Product: ​Jifflenow iris application Main Feature with the product​: Core UI/UX team <br />
-                 Role​: UI Developer <br />
+                 Role​: Frontend Engineer <br />
                  Description​: The core UI development team of the application. Responsible for introducing new UI features and also responsible in migrating few old features to ​React
                 </p>
              </div>
