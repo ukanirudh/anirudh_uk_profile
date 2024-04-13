@@ -19,7 +19,7 @@ const Portfolio = () => {
 
   const portfolioImageSelect = useCallback((curImgUrl) => {
     setCurPortfolioImage(curImgUrl)
-  }, [curPortfolioImage])
+  }, [setCurPortfolioImage])
 
   const handleItemClick = (data) => {
     const {currentActivity: {externalSrc}, curImgUrl} = data

@@ -100,7 +100,7 @@ export const myWorks = [
         activityName: 'Ankasamudra and Tungabhadra backwaters',
         activityDate: 'Dec 2018',
         activityLocation: 'Tungabhadra Backwaters, Hospet',
-        imageUrl: 'tb_backwaters_1',
+        imageUrl: 'flamingos_1',
       },
       {
         activityName: 'Deccan plateau Exploration',

@@ -593,11 +593,12 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
+   text-align: center;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #fff; }
+#contact a:hover, #contact a:focus { color: #525252; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -725,17 +726,6 @@ call-to-action .button {
 /* i. Footer
 /* ------------------------------------------------------------------ */
 
-footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
-   font-size: 14px;
-   text-align: center;
-   position: relative;
-}
-
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {

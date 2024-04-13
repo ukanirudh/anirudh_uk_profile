@@ -18,12 +18,11 @@ const About = () => {
             <div className="nine columns main-col">
                <h2>About Me</h2>
                <p>
-                  An enthusiastic UI developer, thriving with the never-ending inflow of knowledge and 
+                  An enthusiastic Frontend Engineer, thriving with the never-ending inflow of knowledge and 
                   a firm believer in 'to learn is to grow'. 
-                  7.5 years of professional experience in Frontend development, 
-                  with a diverse journey of working with a Big scale MNC(Oracle), 
-                  to a Growing startup(Jifflenow), to a Mid-sized MNC(Syncron international), 
-                  and back to a startup named EclecticIQ.
+                  8 years of professional experience in Frontend development, 
+                  with a diverse journey of working with a large-scale companies, multiple startups and product-based
+                  companies, building several products from scratch.
                </p>
                <p className="">
                   Predominantly worked on ReactJs library for various projects, 
@@ -34,7 +33,7 @@ const About = () => {
                </p>
                <p>
                   If in case, you would be interested to know what I do apart from my professional life,
-                  please do check it out under <span> <a href="#portfolio">Passion section</a></span>
+                  please do check out the <span> <a href="#portfolio">Passion section</a></span>
                </p>
             </div>
          </div>

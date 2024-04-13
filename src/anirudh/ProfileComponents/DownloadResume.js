@@ -6,7 +6,7 @@ const DownloadResume = () => {
       <div className="columns contact-details">
         <p>
           <a href={require('../../static/data/UK_ANIRUDH-resume.pdf')} target='_blank' className="button">
-          <i class="fas fa-id-badge margin-right-5px"></i>
+          <i className="fas fa-id-badge margin-right-5px"></i>
             View Online
           </a>
         </p>
