@@ -1,30 +1,34 @@
-import React, { useState } from 'react'
+"use client";
+
+import React, { useState, useEffect } from 'react'
 import {
   Segment,
-  Visibility,
 } from 'semantic-ui-react'
 import AppHeaderDesktop from './AppHeaderDesktop'
 import MySocialLinks from './MySocialLinks';
 import WindtrailsSocial from './WindTrailsSocial';
+import { useInView } from 'react-intersection-observer';
 
 const DesktopContainer = ({ showLinks = true }) => {
   const [fixed, setFixed] = useState(false);
+  const { ref, inView } = useInView({
+    threshold: 0, // trigger when bottom passes
+  });
+
+  useEffect(() => {
+    setFixed(!inView); // same behavior as onBottomPassed
+  }, [inView]);
 
   return (
-    <Visibility
-      once={false}
-      onBottomPassed={() => setFixed({ fixed: true })}
-      onBottomPassedReverse={() => setFixed({ fixed: false })}
-    >
       <Segment
         className='responsive-primary-container'
         inverted
         textAlign='center'
-        style={{ minHeight: 700, padding: '1em 0em' }}
+        style={{ minHeight: 700, padding: '1em 0em 0em 0em' }}
         vertical
       >
         <AppHeaderDesktop fixed={fixed} />
-        <header id="home">
+        <header id="home" ref={ref}>
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">I'm Anirudh UK.</h1>
@@ -46,7 +50,6 @@ const DesktopContainer = ({ showLinks = true }) => {
           }
         </header>
       </Segment>
-    </Visibility>
   )
 }
 

@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useCallback, useState } from 'react'
 import { Card, Container, Segment, Grid, Image } from 'semantic-ui-react'
-import { myWorks } from '../../static/data/PortfolioImages'
+import { myWorks } from '../../../static/data/PortfolioImages'
 import PortfolioImageModal from './PortfolioSpace/PortfolioImageModal'
 import DetailedAboutMe from './DetailedAboutMe'
 import cloudinary from 'cloudinary-core';

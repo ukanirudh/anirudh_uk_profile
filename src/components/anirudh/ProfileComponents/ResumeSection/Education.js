@@ -10,7 +10,7 @@ const Education = () => {
        <div className="nine columns main-col">
           <div className="row item">
              <div className="twelve columns">
-                <h3>PESIT BSC</h3>
+                <h3>PESIT</h3>
                 <p className="info">Bachelor's of Engineering <span>&bull;</span> <em className="date">Sept 2011 - Oct 2015</em></p>
                 <p className="info">VTU Board - 74.72%</p>
              </div>
