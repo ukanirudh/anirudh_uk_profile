@@ -18,7 +18,7 @@ const Footer = (props = {}) => {
             <ul className="copyright">
               <li>(+91)-9036565202</li>
               <li><a href="mailto:anirudh.anirudh93@gmail.com?Subject=Reach Out" target="_top">anirudh.anirudh93@gmail.com</a></li>
-              <li>(+91)-7892329983</li>
+              {/* <li>(+91)-7892329983</li> */}
             </ul>
           </div>
        </div>

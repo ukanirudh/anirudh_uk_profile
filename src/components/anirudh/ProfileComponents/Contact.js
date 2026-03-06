@@ -24,13 +24,12 @@ const Contact = () => {
                 <span>Anirudh UK</span>
                 <br />
                  <span>
-                   #894, PV Rai, 2nd floor, 5th B main, vijaybank layout,
-                   Bengaluru
+                  Bengaluru
                  </span>
                  <br />
                  <span>+91-9036565202</span>
                  <br />
-                 <span>+91-7892329983</span>
+                 {/* <span>+91-7892329983</span> */}
                  <br />
                 <span>anirudh.anirudh93@gmail.com</span>
               </div>
