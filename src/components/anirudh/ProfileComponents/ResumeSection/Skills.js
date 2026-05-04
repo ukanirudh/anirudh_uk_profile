@@ -16,6 +16,17 @@ const Skills = () => {
           <Grid columns="equal">
             <Grid.Column>
               <Grid.Row>
+                <Grid.Column className="skill-name">Cursor-AI</Grid.Column>
+                <Grid.Column>
+                  <Rating
+                    size={"huge"}
+                    defaultRating={3}
+                    maxRating={5}
+                    disabled
+                  />
+                </Grid.Column>
+              </Grid.Row>
+              <Grid.Row>
                 <Grid.Column className="skill-name">Javascript</Grid.Column>
                 <Grid.Column>
                   <Rating
@@ -129,6 +140,17 @@ const Skills = () => {
               </Grid.Row>
               <Grid.Row>
                 <Grid.Column className="skill-name">Playwright</Grid.Column>
+                <Grid.Column>
+                  <Rating
+                    size={"huge"}
+                    defaultRating={3}
+                    maxRating={5}
+                    disabled
+                  />
+                </Grid.Column>
+              </Grid.Row>
+              <Grid.Row>
+                <Grid.Column className="skill-name">AWS</Grid.Column>
                 <Grid.Column>
                   <Rating
                     size={"huge"}

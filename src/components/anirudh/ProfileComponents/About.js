@@ -22,7 +22,7 @@ const About = () => {
                <p className="about-me-info">
                   An enthusiastic Frontend Engineer, thriving with the never-ending inflow of knowledge and 
                   a firm believer in 'to learn is to grow'. 
-                  9 years of professional experience in Frontend development, 
+                  <b style={{color: '#ffff'}}>10 years</b> of professional experience in Frontend development, 
                   with a diverse journey of working with a large-scale companies, multiple startups and product-based
                   companies, building several products from scratch.
                </p>

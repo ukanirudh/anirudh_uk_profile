@@ -16,21 +16,21 @@ const Education = () => {
              </div>
           </div>
 
-          <div className="row item">
+          {/* <div className="row item">
             <div className="twelve columns">
                <h3>Sri Chaitanya Junior college</h3>
                <p className="info">Pre University<span>&bull;</span> <em className="date">Apr 2009 - Jun 2011</em></p>
                <p className="info">Andra Board(IPE) - 88%</p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="row item">
+          {/* <div className="row item">
             <div className="twelve columns">
                <h3>Kendriya Vidhyalaya</h3>
                <p className="info">High school<span>&bull;</span> <em className="date">Mar 2009</em></p>
                <p className="info">CBSE - 81.5%</p>
             </div>
-          </div>
+          </div> */}
        </div>
     </div>
   )
